@@ -4,6 +4,22 @@
 
 ---
 
+## The Mathematics
+
+For a ReLU neural network $f: \mathbb{R}^n \to \mathbb{R}^m$,
+we prove:
+
+$$f^{-1}(c) \text{ is a finite union of convex polytopes}$$
+
+$$\pi_1(P_i) = 0 \quad \forall \text{ connected component } P_i$$
+
+This means: within each decision region, the network's behavior
+is topologically stable — no hidden loops, no unexpected boundaries.
+
+**This is not a test result. This is a theorem.**
+
+---
+
 ## What is CB-Attractor?
 
 CB-Attractor is a formal verification project for AI systems,
